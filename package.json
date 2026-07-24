@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "vite": "latest",
+    "three": "latest"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true,
+  "name": "track-props-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Procedural 3D racing track props generator with GLB export."
+}

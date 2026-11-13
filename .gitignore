@@ -2,3 +2,12 @@ node_modules/
 dist/
 .DS_Store
 *.log
+# backend
+server/.venv/
+server/config.json
+server/models/
+__pycache__/
+*.pyc
+# job data (uploads, panoramas, reconstructions)
+workspace/
+tools/
